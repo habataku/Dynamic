@@ -1,6 +1,6 @@
 FROM node:18-alpine
 
-ENV NODE_ENV=production
+ENV PORT 8080
 ARG NPM_BUILD="npm install --omit=dev"
 EXPOSE 8080
 
